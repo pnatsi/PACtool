@@ -6,7 +6,7 @@ PACtool is a programme that performs GWAS analyses on control/case data of SNP v
 PACtool 1.x Features:
    
 1. Allele frequency calculation of each variant for all selected SNPs
-2. HWE statistic and  respective p-value calculation for the unified contols and cases dataset
+2. HWE statistic and  respective p-value calculation for the unified controls and cases dataset
 3. Linkage Disequilibrium evaluation between two selected SNPs  (D' and r-squared are calculated)
 4. Association Test on the provided dataset, with optional generation of manhattan plot and qq-plot
 5. Chromosome coordinates conversion from ncbi 36 assembly (hg18) to 38 (hg38)

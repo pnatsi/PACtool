@@ -62,9 +62,6 @@ while the rest of the columns hold the values from the respective statistical te
 
 ## INSTALLATION-UTILIZATION
 
-PACtool was uploaded to the Python Package Index (PyPI), using the standard procedure 
-(creating source distribution, registering the package against PyPI server, and uploading it). 
-
 PACtool can be downloaded by visiting the following link:
 
 	https://pypi.python.org/pypi/pactool
@@ -79,7 +76,7 @@ Three of the arguments are required and must be provided every time, or else you
 Please be sure to include the following arguments:
 
 	-controls_file: Indicates the input file containing control samples
-	-cases_file:	Indicates the input file o
+	-cases_file:	Indicates the input file containing case samples
 	-output:	Specifies the prefix of each output file
 
 The following optional arguments can be also include, alongside with a file with snp_codes (one in each line) to 

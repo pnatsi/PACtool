@@ -140,6 +140,6 @@ For any bug report, contribution or general comment please contact any of the au
 
 ## LICENSE
 
-Pactool lies under MIT license described in this link:
+PACtool lies under MIT license described in this link:
 
 https://opensource.org/licenses/MIT

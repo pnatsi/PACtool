@@ -1,4 +1,5 @@
 import timeit
+import multitools
 
 start = timeit.default_timer()
 

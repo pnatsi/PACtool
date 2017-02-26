@@ -95,7 +95,7 @@ def ld(snp1, snp2, controls, cases):
         except ZeroDivisionError:
             print("Zero division occured on EM algorithm for a pair of snps")
             break
-        if abs(p_new - p_old) < 0.0000001:
+        if abs(p_new - p_old) < 0.0001:
             break
         else:
             p_rr = p_new

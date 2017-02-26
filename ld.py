@@ -93,7 +93,7 @@ def ld(snp1, snp2, controls, cases):
             E = 2*n_rrrr + n_rrra + n_rarr + (p_rr*(1 + p_rr - p_r1 - p_r2) * n_rara)/((p_r1 - p_rr)*(p_r2 - p_rr) + p_rr*(1 + p_rr - p_r1 - p_r2))
             p_new = E/(2*n)
         except ZeroDivisionError:
-            print("there was an error in the input")
+            print("Zero division occured on EM algorithm for a pair of snps")
             break
         if abs(p_new - p_old) < 0.0000001:
             break
